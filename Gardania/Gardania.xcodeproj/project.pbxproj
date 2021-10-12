@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0D2CFE727152FC500861667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2CFE627152FC500861667 /* AppDelegate.swift */; };
+		A0D2CFE927152FC500861667 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2CFE827152FC500861667 /* SceneDelegate.swift */; };
+		A0D2CFEB27152FC500861667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2CFEA27152FC500861667 /* ViewController.swift */; };
+		A0D2CFEE27152FC500861667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D2CFEC27152FC500861667 /* Main.storyboard */; };
+		A0D2CFF027152FC600861667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D2CFEF27152FC600861667 /* Assets.xcassets */; };
+		A0D2CFF327152FC600861667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D2CFF127152FC600861667 /* LaunchScreen.storyboard */; };
+		A0D2CFFE27152FC600861667 /* GardaniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2CFFD27152FC600861667 /* GardaniaTests.swift */; };
+		A0D2D00827152FC600861667 /* GardaniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2D00727152FC600861667 /* GardaniaUITests.swift */; };
+		A0D2D00A27152FC600861667 /* GardaniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2D00927152FC600861667 /* GardaniaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D2CFFA27152FC600861667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D2CFDB27152FC500861667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D2CFE227152FC500861667;
+			remoteInfo = Gardania;
+		};
+		A0D2D00427152FC600861667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D2CFDB27152FC500861667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D2CFE227152FC500861667;
+			remoteInfo = Gardania;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0D2CFE327152FC500861667 /* Gardania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D2CFE627152FC500861667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0D2CFE827152FC500861667 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0D2CFEA27152FC500861667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0D2CFED27152FC500861667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D2CFEF27152FC600861667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D2CFF227152FC600861667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0D2CFF427152FC600861667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D2CFF927152FC600861667 /* GardaniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardaniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D2CFFD27152FC600861667 /* GardaniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardaniaTests.swift; sourceTree = "<group>"; };
+		A0D2D00327152FC600861667 /* GardaniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardaniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D2D00727152FC600861667 /* GardaniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardaniaUITests.swift; sourceTree = "<group>"; };
+		A0D2D00927152FC600861667 /* GardaniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardaniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D2CFE027152FC500861667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2CFF627152FC600861667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2D00027152FC600861667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0D2CFDA27152FC500861667 = {
+			isa = PBXGroup;
+			children = (
+				A0D2CFE527152FC500861667 /* Gardania */,
+				A0D2CFFC27152FC600861667 /* GardaniaTests */,
+				A0D2D00627152FC600861667 /* GardaniaUITests */,
+				A0D2CFE427152FC500861667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D2CFE427152FC500861667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2CFE327152FC500861667 /* Gardania.app */,
+				A0D2CFF927152FC600861667 /* GardaniaTests.xctest */,
+				A0D2D00327152FC600861667 /* GardaniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0D2CFE527152FC500861667 /* Gardania */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2CFE627152FC500861667 /* AppDelegate.swift */,
+				A0D2CFE827152FC500861667 /* SceneDelegate.swift */,
+				A0D2CFEA27152FC500861667 /* ViewController.swift */,
+				A0D2CFEC27152FC500861667 /* Main.storyboard */,
+				A0D2CFEF27152FC600861667 /* Assets.xcassets */,
+				A0D2CFF127152FC600861667 /* LaunchScreen.storyboard */,
+				A0D2CFF427152FC600861667 /* Info.plist */,
+			);
+			path = Gardania;
+			sourceTree = "<group>";
+		};
+		A0D2CFFC27152FC600861667 /* GardaniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2CFFD27152FC600861667 /* GardaniaTests.swift */,
+			);
+			path = GardaniaTests;
+			sourceTree = "<group>";
+		};
+		A0D2D00627152FC600861667 /* GardaniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2D00727152FC600861667 /* GardaniaUITests.swift */,
+				A0D2D00927152FC600861667 /* GardaniaUITestsLaunchTests.swift */,
+			);
+			path = GardaniaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0D2CFE227152FC500861667 /* Gardania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D2D00D27152FC600861667 /* Build configuration list for PBXNativeTarget "Gardania" */;
+			buildPhases = (
+				A0D2CFDF27152FC500861667 /* Sources */,
+				A0D2CFE027152FC500861667 /* Frameworks */,
+				A0D2CFE127152FC500861667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gardania;
+			productName = Gardania;
+			productReference = A0D2CFE327152FC500861667 /* Gardania.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0D2CFF827152FC600861667 /* GardaniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D2D01027152FC600861667 /* Build configuration list for PBXNativeTarget "GardaniaTests" */;
+			buildPhases = (
+				A0D2CFF527152FC600861667 /* Sources */,
+				A0D2CFF627152FC600861667 /* Frameworks */,
+				A0D2CFF727152FC600861667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D2CFFB27152FC600861667 /* PBXTargetDependency */,
+			);
+			name = GardaniaTests;
+			productName = GardaniaTests;
+			productReference = A0D2CFF927152FC600861667 /* GardaniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0D2D00227152FC600861667 /* GardaniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D2D01327152FC600861667 /* Build configuration list for PBXNativeTarget "GardaniaUITests" */;
+			buildPhases = (
+				A0D2CFFF27152FC600861667 /* Sources */,
+				A0D2D00027152FC600861667 /* Frameworks */,
+				A0D2D00127152FC600861667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D2D00527152FC600861667 /* PBXTargetDependency */,
+			);
+			name = GardaniaUITests;
+			productName = GardaniaUITests;
+			productReference = A0D2D00327152FC600861667 /* GardaniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D2CFDB27152FC500861667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A0D2CFE227152FC500861667 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A0D2CFF827152FC600861667 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0D2CFE227152FC500861667;
+					};
+					A0D2D00227152FC600861667 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0D2CFE227152FC500861667;
+					};
+				};
+			};
+			buildConfigurationList = A0D2CFDE27152FC500861667 /* Build configuration list for PBXProject "Gardania" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0D2CFDA27152FC500861667;
+			productRefGroup = A0D2CFE427152FC500861667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D2CFE227152FC500861667 /* Gardania */,
+				A0D2CFF827152FC600861667 /* GardaniaTests */,
+				A0D2D00227152FC600861667 /* GardaniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0D2CFE127152FC500861667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2CFF327152FC600861667 /* LaunchScreen.storyboard in Resources */,
+				A0D2CFF027152FC600861667 /* Assets.xcassets in Resources */,
+				A0D2CFEE27152FC500861667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2CFF727152FC600861667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2D00127152FC600861667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D2CFDF27152FC500861667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2CFEB27152FC500861667 /* ViewController.swift in Sources */,
+				A0D2CFE727152FC500861667 /* AppDelegate.swift in Sources */,
+				A0D2CFE927152FC500861667 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2CFF527152FC600861667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2CFFE27152FC600861667 /* GardaniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2CFFF27152FC600861667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2D00A27152FC600861667 /* GardaniaUITestsLaunchTests.swift in Sources */,
+				A0D2D00827152FC600861667 /* GardaniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D2CFFB27152FC600861667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D2CFE227152FC500861667 /* Gardania */;
+			targetProxy = A0D2CFFA27152FC600861667 /* PBXContainerItemProxy */;
+		};
+		A0D2D00527152FC600861667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D2CFE227152FC500861667 /* Gardania */;
+			targetProxy = A0D2D00427152FC600861667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0D2CFEC27152FC500861667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D2CFED27152FC500861667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D2CFF127152FC600861667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D2CFF227152FC600861667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0D2D00B27152FC600861667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0D2D00C27152FC600861667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D2D00E27152FC600861667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gardania/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group.Gardania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D2D00F27152FC600861667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gardania/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group.Gardania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0D2D01127152FC600861667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group.GardaniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gardania.app/Gardania";
+			};
+			name = Debug;
+		};
+		A0D2D01227152FC600861667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group.GardaniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gardania.app/Gardania";
+			};
+			name = Release;
+		};
+		A0D2D01427152FC600861667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group.GardaniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gardania;
+			};
+			name = Debug;
+		};
+		A0D2D01527152FC600861667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group.GardaniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gardania;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0D2CFDE27152FC500861667 /* Build configuration list for PBXProject "Gardania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D2D00B27152FC600861667 /* Debug */,
+				A0D2D00C27152FC600861667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D2D00D27152FC600861667 /* Build configuration list for PBXNativeTarget "Gardania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D2D00E27152FC600861667 /* Debug */,
+				A0D2D00F27152FC600861667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D2D01027152FC600861667 /* Build configuration list for PBXNativeTarget "GardaniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D2D01127152FC600861667 /* Debug */,
+				A0D2D01227152FC600861667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D2D01327152FC600861667 /* Build configuration list for PBXNativeTarget "GardaniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D2D01427152FC600861667 /* Debug */,
+				A0D2D01527152FC600861667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0D2CFDB27152FC500861667 /* Project object */;
+}
