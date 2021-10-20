@@ -101,6 +101,7 @@
 		A01B772A271532C700042FC9 /* Gardenia */ = {
 			isa = PBXGroup;
 			children = (
+				A0D85F702720C8E7000314B2 /* Images */,
 				A01B772B271532C700042FC9 /* AppDelegate.swift */,
 				A01B772D271532C700042FC9 /* SceneDelegate.swift */,
 				A01B772F271532C700042FC9 /* ViewController.swift */,
@@ -128,6 +129,13 @@
 				A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */,
 			);
 			path = GardeniaUITests;
+			sourceTree = "<group>";
+		};
+		A0D85F702720C8E7000314B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
