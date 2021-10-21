@@ -18,6 +18,7 @@ PODS:
     - GoogleUtilities/Environment (~> 6.7)
     - GoogleUtilities/Logger (~> 6.7)
     - nanopb (~> 1.30906.0)
+  - FSCalendar (2.8.2)
   - GoogleDataTransport (7.5.1):
     - nanopb (~> 1.30906.0)
   - GoogleUtilities/AppDelegateSwizzler (6.7.2):
@@ -45,6 +46,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Auth
+  - FSCalendar
 
 SPEC REPOS:
   trunk:
@@ -52,6 +54,7 @@ SPEC REPOS:
     - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
+    - FSCalendar
     - GoogleDataTransport
     - GoogleUtilities
     - GTMSessionFetcher
@@ -63,12 +66,13 @@ SPEC CHECKSUMS:
   FirebaseAuth: c92d49ada7948d1a23466e3db17bc4c2039dddc3
   FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
   FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
   GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 39afe87680efd248d7b4ee315fe89570521df19a
+PODFILE CHECKSUM: 917fe47307c6c75c29e11a329f95267974e31a9f
 
 COCOAPODS: 1.11.2
