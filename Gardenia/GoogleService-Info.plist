@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>622645599985-5qq8rlo7ku556gteh8ah92i22dddpp4h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.622645599985-5qq8rlo7ku556gteh8ah92i22dddpp4h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBiNVC2W5YpyuPWGvuyVXV7GjpUehtYZms</string>
+	<key>GCM_SENDER_ID</key>
+	<string>622645599985</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Group.Gardenia</string>
+	<key>PROJECT_ID</key>
+	<string>podprojecttes</string>
+	<key>STORAGE_BUCKET</key>
+	<string>podprojecttes.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:622645599985:ios:61afebe27d8516cf911350</string>
+</dict>
+</plist>

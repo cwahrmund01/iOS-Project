@@ -1,0 +1,6 @@
+framework module Pods_Gardenia {
+  umbrella header "Pods-Gardenia-umbrella.h"
+
+  export *
+  module * { export * }
+}

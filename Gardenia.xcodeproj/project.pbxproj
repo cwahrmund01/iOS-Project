@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		822B19FF2721063300DD7882 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822B19FE2721063300DD7882 /* TestViewController.swift */; };
+		822B1A012721125800DD7882 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822B1A002721125800DD7882 /* GoogleService-Info.plist */; };
+		902C4F8793A052958EA4226E /* Pods_Gardenia_GardeniaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */; };
 		A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B772B271532C700042FC9 /* AppDelegate.swift */; };
 		A01B772E271532C700042FC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B772D271532C700042FC9 /* SceneDelegate.swift */; };
 		A01B7730271532C700042FC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B772F271532C700042FC9 /* ViewController.swift */; };
@@ -18,7 +19,8 @@
 		A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774C271532C800042FC9 /* GardeniaUITests.swift */; };
 		A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */; };
 		A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D85F6E2720C572000314B2 /* PlantViewController.swift */; };
-		A0DEF04E272107480029E79F /* NEWNEWTESTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF04D272107480029E79F /* NEWNEWTESTViewController.swift */; };
+		BD7276C50AA6A235EF451921 /* Pods_GardeniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */; };
+		CDEA658648587B97F88CB291 /* Pods_Gardenia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		822B19FE2721063300DD7882 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		0219D115A3F1CB4050A7E011 /* Pods-Gardenia-GardeniaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardenia-GardeniaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gardenia-GardeniaUITests/Pods-Gardenia-GardeniaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		025CBDCB4FAA8D4669621FC7 /* Pods-Gardenia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardenia.debug.xcconfig"; path = "Target Support Files/Pods-Gardenia/Pods-Gardenia.debug.xcconfig"; sourceTree = "<group>"; };
+		637BE28D0582D262EE9066A9 /* Pods-GardeniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardeniaTests.debug.xcconfig"; path = "Target Support Files/Pods-GardeniaTests/Pods-GardeniaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66792AEF37EC9CD367FB2771 /* Pods-Gardenia-GardeniaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardenia-GardeniaUITests.release.xcconfig"; path = "Target Support Files/Pods-Gardenia-GardeniaUITests/Pods-Gardenia-GardeniaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GardeniaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822B1A002721125800DD7882 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F8E280203A866C62CA2C574 /* Pods-GardeniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardeniaTests.release.xcconfig"; path = "Target Support Files/Pods-GardeniaTests/Pods-GardeniaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A01B7728271532C700042FC9 /* Gardenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01B772B271532C700042FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A01B772D271532C700042FC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +62,9 @@
 		A01B774C271532C800042FC9 /* GardeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITests.swift; sourceTree = "<group>"; };
 		A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A0D85F6E2720C572000314B2 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
-		A0DEF04D272107480029E79F /* NEWNEWTESTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEWNEWTESTViewController.swift; sourceTree = "<group>"; };
+		BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia_GardeniaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA468054FEA197D1B849BAF /* Pods-Gardenia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardenia.release.xcconfig"; path = "Target Support Files/Pods-Gardenia/Pods-Gardenia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEA658648587B97F88CB291 /* Pods_Gardenia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7276C50AA6A235EF451921 /* Pods_GardeniaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902C4F8793A052958EA4226E /* Pods_Gardenia_GardeniaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D968504EFAE72185AB73B56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */,
+				BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */,
+				7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D202514C44A4E4808188F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025CBDCB4FAA8D4669621FC7 /* Pods-Gardenia.debug.xcconfig */,
+				CAA468054FEA197D1B849BAF /* Pods-Gardenia.release.xcconfig */,
+				0219D115A3F1CB4050A7E011 /* Pods-Gardenia-GardeniaUITests.debug.xcconfig */,
+				66792AEF37EC9CD367FB2771 /* Pods-Gardenia-GardeniaUITests.release.xcconfig */,
+				637BE28D0582D262EE9066A9 /* Pods-GardeniaTests.debug.xcconfig */,
+				9F8E280203A866C62CA2C574 /* Pods-GardeniaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A01B771F271532C700042FC9 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +125,8 @@
 				A01B7741271532C800042FC9 /* GardeniaTests */,
 				A01B774B271532C800042FC9 /* GardeniaUITests */,
 				A01B7729271532C700042FC9 /* Products */,
+				75D202514C44A4E4808188F2 /* Pods */,
+				2D968504EFAE72185AB73B56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,11 +149,10 @@
 				A01B772F271532C700042FC9 /* ViewController.swift */,
 				A0D85F6E2720C572000314B2 /* PlantViewController.swift */,
 				A01B7731271532C700042FC9 /* Main.storyboard */,
-				822B19FE2721063300DD7882 /* TestViewController.swift */,
 				A01B7734271532C800042FC9 /* Assets.xcassets */,
 				A01B7736271532C800042FC9 /* LaunchScreen.storyboard */,
+				822B1A002721125800DD7882 /* GoogleService-Info.plist */,
 				A01B7739271532C800042FC9 /* Info.plist */,
-				A0DEF04D272107480029E79F /* NEWNEWTESTViewController.swift */,
 			);
 			path = Gardenia;
 			sourceTree = "<group>";
@@ -151,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A01B7752271532C800042FC9 /* Build configuration list for PBXNativeTarget "Gardenia" */;
 			buildPhases = (
+				D5D1617C65CB09487BEB2CDC /* [CP] Check Pods Manifest.lock */,
 				A01B7724271532C700042FC9 /* Sources */,
 				A01B7725271532C700042FC9 /* Frameworks */,
 				A01B7726271532C700042FC9 /* Resources */,
+				6B06DFDDE391341A1B6C6839 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A01B7755271532C800042FC9 /* Build configuration list for PBXNativeTarget "GardeniaTests" */;
 			buildPhases = (
+				5DB9B1B589FCA85B3D700E34 /* [CP] Check Pods Manifest.lock */,
 				A01B773A271532C800042FC9 /* Sources */,
 				A01B773B271532C800042FC9 /* Frameworks */,
 				A01B773C271532C800042FC9 /* Resources */,
@@ -186,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A01B7758271532C800042FC9 /* Build configuration list for PBXNativeTarget "GardeniaUITests" */;
 			buildPhases = (
+				8B63CB169F0F8E78C304D8FF /* [CP] Check Pods Manifest.lock */,
 				A01B7744271532C800042FC9 /* Sources */,
 				A01B7745271532C800042FC9 /* Frameworks */,
 				A01B7746271532C800042FC9 /* Resources */,
+				F4CC7FA2AC3BF2098DACFAC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01B7738271532C800042FC9 /* LaunchScreen.storyboard in Resources */,
+				822B1A012721125800DD7882 /* GoogleService-Info.plist in Resources */,
 				A01B7735271532C800042FC9 /* Assets.xcassets in Resources */,
 				A01B7733271532C700042FC9 /* Main.storyboard in Resources */,
 			);
@@ -270,15 +313,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DB9B1B589FCA85B3D700E34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GardeniaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B06DFDDE391341A1B6C6839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gardenia/Pods-Gardenia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gardenia/Pods-Gardenia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gardenia/Pods-Gardenia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B63CB169F0F8E78C304D8FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gardenia-GardeniaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D1617C65CB09487BEB2CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gardenia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CC7FA2AC3BF2098DACFAC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gardenia-GardeniaUITests/Pods-Gardenia-GardeniaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gardenia-GardeniaUITests/Pods-Gardenia-GardeniaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gardenia-GardeniaUITests/Pods-Gardenia-GardeniaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A01B7724271532C700042FC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822B19FF2721063300DD7882 /* TestViewController.swift in Sources */,
 				A01B7730271532C700042FC9 /* ViewController.swift in Sources */,
 				A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */,
-				A0DEF04E272107480029E79F /* NEWNEWTESTViewController.swift in Sources */,
 				A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */,
 				A01B772E271532C700042FC9 /* SceneDelegate.swift in Sources */,
 			);
@@ -454,6 +598,7 @@
 		};
 		A01B7753271532C800042FC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025CBDCB4FAA8D4669621FC7 /* Pods-Gardenia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,6 +626,7 @@
 		};
 		A01B7754271532C800042FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA468054FEA197D1B849BAF /* Pods-Gardenia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +654,7 @@
 		};
 		A01B7756271532C800042FC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637BE28D0582D262EE9066A9 /* Pods-GardeniaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +679,7 @@
 		};
 		A01B7757271532C800042FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8E280203A866C62CA2C574 /* Pods-GardeniaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +704,7 @@
 		};
 		A01B7759271532C800042FC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0219D115A3F1CB4050A7E011 /* Pods-Gardenia-GardeniaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +727,7 @@
 		};
 		A01B775A271532C800042FC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66792AEF37EC9CD367FB2771 /* Pods-Gardenia-GardeniaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
