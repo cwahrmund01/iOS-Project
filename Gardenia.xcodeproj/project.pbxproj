@@ -17,6 +17,7 @@
 		A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774C271532C800042FC9 /* GardeniaUITests.swift */; };
 		A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */; };
 		A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D85F6E2720C572000314B2 /* PlantViewController.swift */; };
+		A0DEF04E272107480029E79F /* NEWNEWTESTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF04D272107480029E79F /* NEWNEWTESTViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A01B774C271532C800042FC9 /* GardeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITests.swift; sourceTree = "<group>"; };
 		A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A0D85F6E2720C572000314B2 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
+		A0DEF04D272107480029E79F /* NEWNEWTESTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEWNEWTESTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				A01B7734271532C800042FC9 /* Assets.xcassets */,
 				A01B7736271532C800042FC9 /* LaunchScreen.storyboard */,
 				A01B7739271532C800042FC9 /* Info.plist */,
+				A0DEF04D272107480029E79F /* NEWNEWTESTViewController.swift */,
 			);
 			path = Gardenia;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				A01B7730271532C700042FC9 /* ViewController.swift in Sources */,
 				A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */,
+				A0DEF04E272107480029E79F /* NEWNEWTESTViewController.swift in Sources */,
 				A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */,
 				A01B772E271532C700042FC9 /* SceneDelegate.swift in Sources */,
 			);
