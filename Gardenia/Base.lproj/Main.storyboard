@@ -79,10 +79,6 @@
                                 <rect key="frame" x="151" y="760" width="113" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="7fI-hK-Fzx">
-                                <rect key="frame" x="281" y="764" width="113" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdQ-JB-qI2">
                                 <rect key="frame" x="20" y="772" width="113" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -96,6 +92,30 @@
                                 <rect key="frame" x="20" y="641" width="113" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu5-P0-mwf">
+                                <rect key="frame" x="151" y="772" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Water"/>
+                                <connections>
+                                    <action selector="fertelize" destination="ljF-CX-0NN" eventType="touchUpInside" id="4hr-Ab-7De"/>
+                                    <action selector="water" destination="ljF-CX-0NN" eventType="touchUpInside" id="TWb-DA-pOr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTg-rP-fGk">
+                                <rect key="frame" x="281" y="772" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Harvest"/>
+                                <connections>
+                                    <action selector="fertelize" destination="ljF-CX-0NN" eventType="touchUpInside" id="TQO-ha-PHO"/>
+                                    <action selector="harvest" destination="ljF-CX-0NN" eventType="touchUpInside" id="GVv-eU-we8"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="7fI-hK-Fzx">
+                                <rect key="frame" x="281" y="760" width="113" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K8A-2O-c6H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -103,7 +123,9 @@
                     <navigationItem key="navigationItem" id="kRX-rZ-NOZ"/>
                     <connections>
                         <outlet property="fertProgress" destination="9t5-hF-z2e" id="VaI-xi-rce"/>
+                        <outlet property="harvestProgress" destination="7fI-hK-Fzx" id="Dui-pV-pRI"/>
                         <outlet property="mainPlant" destination="n5t-RT-NQs" id="PLh-r0-Zrf"/>
+                        <outlet property="waterProgress" destination="pg7-at-KIf" id="uDM-IF-bTe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U8i-zZ-lO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -15,9 +15,6 @@
 		A01B7733271532C700042FC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01B7731271532C700042FC9 /* Main.storyboard */; };
 		A01B7735271532C800042FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01B7734271532C800042FC9 /* Assets.xcassets */; };
 		A01B7738271532C800042FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01B7736271532C800042FC9 /* LaunchScreen.storyboard */; };
-		A01B7743271532C800042FC9 /* GardeniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B7742271532C800042FC9 /* GardeniaTests.swift */; };
-		A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774C271532C800042FC9 /* GardeniaUITests.swift */; };
-		A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */; };
 		A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D85F6E2720C572000314B2 /* PlantViewController.swift */; };
 		BD7276C50AA6A235EF451921 /* Pods_GardeniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */; };
 		CDEA658648587B97F88CB291 /* Pods_Gardenia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */; };
@@ -57,10 +54,7 @@
 		A01B7737271532C800042FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01B7739271532C800042FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01B773E271532C800042FC9 /* GardeniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardeniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01B7742271532C800042FC9 /* GardeniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaTests.swift; sourceTree = "<group>"; };
 		A01B7748271532C800042FC9 /* GardeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01B774C271532C800042FC9 /* GardeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITests.swift; sourceTree = "<group>"; };
-		A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A0D85F6E2720C572000314B2 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia_GardeniaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				A01B772A271532C700042FC9 /* Gardenia */,
-				A01B7741271532C800042FC9 /* GardeniaTests */,
-				A01B774B271532C800042FC9 /* GardeniaUITests */,
 				A01B7729271532C700042FC9 /* Products */,
 				75D202514C44A4E4808188F2 /* Pods */,
 				2D968504EFAE72185AB73B56 /* Frameworks */,
@@ -155,23 +147,6 @@
 				A01B7739271532C800042FC9 /* Info.plist */,
 			);
 			path = Gardenia;
-			sourceTree = "<group>";
-		};
-		A01B7741271532C800042FC9 /* GardeniaTests */ = {
-			isa = PBXGroup;
-			children = (
-				A01B7742271532C800042FC9 /* GardeniaTests.swift */,
-			);
-			path = GardeniaTests;
-			sourceTree = "<group>";
-		};
-		A01B774B271532C800042FC9 /* GardeniaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A01B774C271532C800042FC9 /* GardeniaUITests.swift */,
-				A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */,
-			);
-			path = GardeniaUITests;
 			sourceTree = "<group>";
 		};
 		A0D85F702720C8E7000314B2 /* Images */ = {
@@ -432,7 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01B7743271532C800042FC9 /* GardeniaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */,
-				A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
