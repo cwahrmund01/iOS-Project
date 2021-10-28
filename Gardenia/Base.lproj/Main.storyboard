@@ -108,6 +108,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="blueberryBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="c1m-Yv-geY"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiB-0T-1hN">
                                                         <rect key="frame" x="0.0" y="128" width="104.5" height="17"/>
@@ -139,6 +142,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="pepperBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="p35-bz-jOT"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjy-qF-m7L">
                                                         <rect key="frame" x="0.0" y="128" width="105" height="17"/>
@@ -170,6 +176,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="beansBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="rBo-xA-X6w"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y86-hR-xGg">
                                                         <rect key="frame" x="0.0" y="128" width="104.5" height="17"/>
@@ -206,6 +215,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="tomatoBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="ehQ-we-hdm"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCB-Mq-mxd">
                                                         <rect key="frame" x="0.0" y="128" width="104.5" height="17"/>
@@ -237,6 +249,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="strawberryBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="oIH-7c-Fvj"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgg-5D-7Jw">
                                                         <rect key="frame" x="0.0" y="128" width="105" height="17"/>
@@ -268,6 +283,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="fertilizerBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="9wx-Wg-gUA"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9EB-Dd-Z0j">
                                                         <rect key="frame" x="0.0" y="128" width="104.5" height="17"/>
@@ -321,6 +339,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="gardenBackgroundBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="gSa-iz-duX"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ws2-2e-WbU">
                                                         <rect key="frame" x="0.0" y="128" width="104.5" height="17"/>
@@ -352,6 +373,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="windowBackgroundBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="l6o-2s-zts"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$75" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9y-x6-va3">
                                                         <rect key="frame" x="0.0" y="128" width="105" height="17"/>
@@ -383,6 +407,9 @@
                                                                 </fragment>
                                                             </attributedString>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="meadowBackgroundBuy:" destination="h79-Rw-Et7" eventType="touchUpInside" id="MtX-9u-xLf"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNG-Q1-cOU">
                                                         <rect key="frame" x="0.0" y="128" width="104.5" height="17"/>
@@ -425,10 +452,14 @@
                                                 <fragment content="Sell Harvestables">
                                                     <attributes>
                                                         <font key="NSFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="sellAllHarvestables:" destination="h79-Rw-Et7" eventType="touchUpInside" id="AsJ-Pc-J7B"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$not fixed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTi-h3-ioJ">
                                         <rect key="frame" x="0.0" y="128" width="150" height="17"/>
@@ -483,6 +514,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="WXK-cs-4Q9"/>
                     <connections>
+                        <outlet property="moneyLabel" destination="7nh-u7-Q6B" id="2tA-V4-dTx"/>
                         <outlet property="sellHarvestButton" destination="rwC-8K-cFy" id="p4M-e6-4TO"/>
                         <outlet property="strawberryButton" destination="2hH-Ps-V92" id="KOc-di-skc"/>
                         <outlet property="windowButton" destination="4nO-vy-X6f" id="fT6-Kb-B0U"/>
