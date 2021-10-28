@@ -18,6 +18,9 @@
 		A01B7743271532C800042FC9 /* GardeniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B7742271532C800042FC9 /* GardeniaTests.swift */; };
 		A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774C271532C800042FC9 /* GardeniaUITests.swift */; };
 		A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */; };
+		A099B844272995C100BF6FA5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B843272995C100BF6FA5 /* LoginViewController.swift */; };
+		A099B846272995D700BF6FA5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B845272995D700BF6FA5 /* RegisterViewController.swift */; };
+		A099B848272995EC00BF6FA5 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B847272995EC00BF6FA5 /* CalendarViewController.swift */; };
 		A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D85F6E2720C572000314B2 /* PlantViewController.swift */; };
 		BD7276C50AA6A235EF451921 /* Pods_GardeniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */; };
 		CDEA658648587B97F88CB291 /* Pods_Gardenia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */; };
@@ -61,6 +64,9 @@
 		A01B7748271532C800042FC9 /* GardeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01B774C271532C800042FC9 /* GardeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITests.swift; sourceTree = "<group>"; };
 		A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A099B843272995C100BF6FA5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A099B845272995D700BF6FA5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A099B847272995EC00BF6FA5 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A0D85F6E2720C572000314B2 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia_GardeniaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,9 @@
 				A01B772F271532C700042FC9 /* ViewController.swift */,
 				A0D85F6E2720C572000314B2 /* PlantViewController.swift */,
 				A01B7731271532C700042FC9 /* Main.storyboard */,
+				A099B843272995C100BF6FA5 /* LoginViewController.swift */,
+				A099B845272995D700BF6FA5 /* RegisterViewController.swift */,
+				A099B847272995EC00BF6FA5 /* CalendarViewController.swift */,
 				A01B7734271532C800042FC9 /* Assets.xcassets */,
 				A01B7736271532C800042FC9 /* LaunchScreen.storyboard */,
 				822B1A002721125800DD7882 /* GoogleService-Info.plist */,
@@ -424,6 +433,9 @@
 				A01B7730271532C700042FC9 /* ViewController.swift in Sources */,
 				A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */,
 				A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */,
+				A099B846272995D700BF6FA5 /* RegisterViewController.swift in Sources */,
+				A099B844272995C100BF6FA5 /* LoginViewController.swift in Sources */,
+				A099B848272995EC00BF6FA5 /* CalendarViewController.swift in Sources */,
 				A01B772E271532C700042FC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
