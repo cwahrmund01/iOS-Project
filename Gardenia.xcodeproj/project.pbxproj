@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		822B1A012721125800DD7882 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822B1A002721125800DD7882 /* GoogleService-Info.plist */; };
+		82F012712729FC3D003BC06F /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F012702729FC3D003BC06F /* ShopViewController.swift */; };
 		902C4F8793A052958EA4226E /* Pods_Gardenia_GardeniaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */; };
 		A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B772B271532C700042FC9 /* AppDelegate.swift */; };
 		A01B772E271532C700042FC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B772D271532C700042FC9 /* SceneDelegate.swift */; };
@@ -18,6 +19,9 @@
 		A01B7743271532C800042FC9 /* GardeniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B7742271532C800042FC9 /* GardeniaTests.swift */; };
 		A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774C271532C800042FC9 /* GardeniaUITests.swift */; };
 		A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */; };
+		A099B844272995C100BF6FA5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B843272995C100BF6FA5 /* LoginViewController.swift */; };
+		A099B846272995D700BF6FA5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B845272995D700BF6FA5 /* RegisterViewController.swift */; };
+		A099B848272995EC00BF6FA5 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B847272995EC00BF6FA5 /* CalendarViewController.swift */; };
 		A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D85F6E2720C572000314B2 /* PlantViewController.swift */; };
 		BD7276C50AA6A235EF451921 /* Pods_GardeniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */; };
 		CDEA658648587B97F88CB291 /* Pods_Gardenia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */; };
@@ -47,6 +51,7 @@
 		66792AEF37EC9CD367FB2771 /* Pods-Gardenia-GardeniaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardenia-GardeniaUITests.release.xcconfig"; path = "Target Support Files/Pods-Gardenia-GardeniaUITests/Pods-Gardenia-GardeniaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GardeniaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		822B1A002721125800DD7882 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82F012702729FC3D003BC06F /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		9F8E280203A866C62CA2C574 /* Pods-GardeniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardeniaTests.release.xcconfig"; path = "Target Support Files/Pods-GardeniaTests/Pods-GardeniaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A01B7728271532C700042FC9 /* Gardenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01B772B271532C700042FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		A01B7748271532C800042FC9 /* GardeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01B774C271532C800042FC9 /* GardeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITests.swift; sourceTree = "<group>"; };
 		A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A099B843272995C100BF6FA5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A099B845272995D700BF6FA5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A099B847272995EC00BF6FA5 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A0D85F6E2720C572000314B2 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		BDDA3E7905E9BD6727A82BB7 /* Pods_Gardenia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardenia_GardeniaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,7 +156,11 @@
 				A01B772D271532C700042FC9 /* SceneDelegate.swift */,
 				A01B772F271532C700042FC9 /* ViewController.swift */,
 				A0D85F6E2720C572000314B2 /* PlantViewController.swift */,
+				82F012702729FC3D003BC06F /* ShopViewController.swift */,
 				A01B7731271532C700042FC9 /* Main.storyboard */,
+				A099B843272995C100BF6FA5 /* LoginViewController.swift */,
+				A099B845272995D700BF6FA5 /* RegisterViewController.swift */,
+				A099B847272995EC00BF6FA5 /* CalendarViewController.swift */,
 				A01B7734271532C800042FC9 /* Assets.xcassets */,
 				A01B7736271532C800042FC9 /* LaunchScreen.storyboard */,
 				822B1A002721125800DD7882 /* GoogleService-Info.plist */,
@@ -423,7 +435,11 @@
 			files = (
 				A01B7730271532C700042FC9 /* ViewController.swift in Sources */,
 				A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */,
+				82F012712729FC3D003BC06F /* ShopViewController.swift in Sources */,
 				A0D85F6F2720C572000314B2 /* PlantViewController.swift in Sources */,
+				A099B846272995D700BF6FA5 /* RegisterViewController.swift in Sources */,
+				A099B844272995C100BF6FA5 /* LoginViewController.swift in Sources */,
+				A099B848272995EC00BF6FA5 /* CalendarViewController.swift in Sources */,
 				A01B772E271532C700042FC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,6 +620,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52QDZ4L929;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gardenia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -632,6 +649,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52QDZ4L929;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gardenia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
