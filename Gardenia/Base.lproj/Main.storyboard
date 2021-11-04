@@ -90,6 +90,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="BQ6-WH-D3r">
+                                <rect key="frame" x="25" y="193.00000000000003" width="364" height="299.66666666666674"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="DMk-PL-Flx">
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="137.33333333333334"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DAc-U2-F1I">
+                                                <rect key="frame" x="0.0" y="0.0" width="104.66666666666667" height="137.33333333333334"/>
                                 <rect key="frame" x="25" y="193" width="350" height="315"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="DMk-PL-Flx">
@@ -105,6 +112,14 @@
                                                             <constraint firstAttribute="width" constant="100" id="Xb0-Dd-cOD"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blueberry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giC-uE-qya">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiB-0T-1hN">
+                                                        <rect key="frame" x="0.0" y="120.33333333333331" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGg-hh-Y63">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -128,8 +143,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="e84-ZQ-pPQ" appends="YES" id="1RS-rX-TTC"/>
+                                                </connections>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pba-Ey-JKC">
+                                                <rect key="frame" x="129.66666666666666" y="0.0" width="104.66666666666666" height="137.33333333333334"/>
                                                 <rect key="frame" x="125" y="0.0" width="100" height="145"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepper" translatesAutoresizingMaskIntoConstraints="NO" id="Bjq-Yd-BgM">
@@ -139,6 +159,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="RLP-QO-IV6"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pepper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EA-si-Gob">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjy-qF-m7L">
+                                                        <rect key="frame" x="0.0" y="120.33333333333331" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5a-Jg-K5L">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -162,8 +190,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Guf-qK-ffy" appends="YES" id="dya-rj-eIT"/>
+                                                </connections>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mNQ-In-tm2">
+                                                <rect key="frame" x="259.33333333333331" y="0.0" width="104.66666666666669" height="137.33333333333334"/>
                                                 <rect key="frame" x="250" y="0.0" width="100" height="145"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beans" translatesAutoresizingMaskIntoConstraints="NO" id="QXm-V5-etA">
@@ -173,6 +206,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="WVQ-Rm-zzL"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bean" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEw-7i-qOK">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y86-hR-xGg">
+                                                        <rect key="frame" x="0.0" y="120.33333333333331" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yP-4c-qfF">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -196,10 +237,18 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="GrM-0O-i75" appends="YES" id="UlC-Xn-6IB"/>
+                                                </connections>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Fme-EC-bWp">
+                                        <rect key="frame" x="0.0" y="162.33333333333331" width="364" height="137.33333333333331"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="49Y-4x-jde">
+                                                <rect key="frame" x="0.0" y="0.0" width="104.66666666666667" height="137.33333333333334"/>
                                         <rect key="frame" x="0.0" y="170" width="350" height="145"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="49Y-4x-jde">
@@ -212,6 +261,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="KAb-QX-sdr"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomato" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLS-rJ-E1v">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCB-Mq-mxd">
+                                                        <rect key="frame" x="0.0" y="120.33333333333337" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwG-kp-YM4">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -235,8 +292,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Bn3-Kz-TkF" appends="YES" id="qoW-vl-GC0"/>
+                                                </connections>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uPe-ID-rnJ">
+                                                <rect key="frame" x="129.66666666666666" y="0.0" width="104.66666666666666" height="137.33333333333334"/>
                                                 <rect key="frame" x="125" y="0.0" width="100" height="145"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="strawberry" translatesAutoresizingMaskIntoConstraints="NO" id="maD-Gg-HQ8">
@@ -246,6 +308,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="plg-fA-5S0"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strawberry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIh-HG-IKO">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgg-5D-7Jw">
+                                                        <rect key="frame" x="0.0" y="120.33333333333337" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hH-Ps-V92">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -269,8 +339,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="04A-MH-sva" appends="YES" id="3pG-cm-8BC"/>
+                                                </connections>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vav-cY-2QQ">
+                                                <rect key="frame" x="259.33333333333331" y="0.0" width="104.66666666666669" height="137.33333333333334"/>
                                                 <rect key="frame" x="250" y="0.0" width="100" height="145"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fertilizer" translatesAutoresizingMaskIntoConstraints="NO" id="8hL-au-BPK">
@@ -280,6 +355,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="n61-oD-Gv1"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fertilizer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5Z-r6-ENx">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9EB-Dd-Z0j">
+                                                        <rect key="frame" x="0.0" y="120.33333333333337" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhQ-xb-TTu">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -303,8 +386,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Xch-lL-qfQ" appends="YES" id="KLE-23-7uS"/>
+                                                </connections>
                                             </stackView>
                                         </subviews>
+                                        <gestureRecognizers/>
                                     </stackView>
                                 </subviews>
                             </stackView>
@@ -321,6 +409,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0se-uE-iHq">
+                                <rect key="frame" x="25" y="563" width="364" height="137.33333333333337"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tqy-Gv-DxN">
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="137.33333333333334"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uwz-uF-X0r">
+                                                <rect key="frame" x="0.0" y="0.0" width="104.66666666666667" height="137.33333333333334"/>
                                 <rect key="frame" x="25" y="563" width="350" height="145"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tqy-Gv-DxN">
@@ -336,6 +431,14 @@
                                                             <constraint firstAttribute="width" constant="100" id="mfH-in-dJa"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garden" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhJ-ab-zwW">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ws2-2e-WbU">
+                                                        <rect key="frame" x="0.0" y="120.33333333333337" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2c-9T-bfx">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -359,8 +462,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="tgx-Ks-qUx" appends="YES" id="pos-3e-ese"/>
+                                                </connections>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RIp-i4-2Ci">
+                                                <rect key="frame" x="129.66666666666666" y="0.0" width="104.66666666666666" height="137.33333333333334"/>
                                                 <rect key="frame" x="125" y="0.0" width="100" height="145"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="window" translatesAutoresizingMaskIntoConstraints="NO" id="y61-WK-PJR">
@@ -370,6 +478,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="blE-GL-3Rf"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Windowsill" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dL-e5-niH">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$75" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9y-x6-va3">
+                                                        <rect key="frame" x="0.0" y="120.33333333333337" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nO-vy-X6f">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -393,8 +509,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="XD3-KJ-ofd" appends="YES" id="cZW-eH-Ata"/>
+                                                </connections>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uf6-hp-w3j">
+                                                <rect key="frame" x="259.33333333333331" y="0.0" width="104.66666666666669" height="137.33333333333334"/>
                                                 <rect key="frame" x="250" y="0.0" width="100" height="145"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meadow" translatesAutoresizingMaskIntoConstraints="NO" id="0mo-cS-aVZ">
@@ -404,6 +525,14 @@
                                                             <constraint firstAttribute="height" constant="100" id="xP6-xx-sXm"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meadow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4k-Yx-Ork">
+                                                        <rect key="frame" x="0.0" y="100" width="104.66666666666667" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNG-Q1-cOU">
+                                                        <rect key="frame" x="0.0" y="120.33333333333337" width="104.66666666666667" height="17"/>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rA-so-Ioz">
                                                         <rect key="frame" x="0.0" y="100" width="100" height="28"/>
                                                         <state key="normal" title="Button"/>
@@ -427,6 +556,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="72v-Tb-IuX" appends="YES" id="e6Y-wG-wK2"/>
+                                                </connections>
                                             </stackView>
                                         </subviews>
                                     </stackView>
@@ -445,6 +578,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XWy-Gm-076">
+                                <rect key="frame" x="132" y="727.33333333333337" width="150" height="137.33333333333337"/>
                                 <rect key="frame" x="125" y="719.66666666666663" width="150" height="145"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harvest" translatesAutoresizingMaskIntoConstraints="NO" id="I7J-8E-ZpD">
@@ -453,33 +587,26 @@
                                             <constraint firstAttribute="height" constant="100" id="8nQ-KO-ene"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwC-8K-cFy">
-                                        <rect key="frame" x="0.0" y="100" width="150" height="28"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Sell Harvestables">
-                                                    <attributes>
-                                                        <font key="NSFont" size="12" name="Helvetica"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="sellAllHarvestables:" destination="h79-Rw-Et7" eventType="touchUpInside" id="AsJ-Pc-J7B"/>
-                                        </connections>
-                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sell Harvestables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seG-dL-m4U">
+                                        <rect key="frame" x="0.0" y="100" width="150" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$not fixed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTi-h3-ioJ">
-                                        <rect key="frame" x="0.0" y="128" width="150" height="17"/>
+                                        <rect key="frame" x="0.0" y="120.33333333333326" width="150" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="0Up-zN-HIi"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AA5-kw-Ge5" appends="YES" id="xzT-SN-P1q"/>
+                                </connections>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4Yo-MN-Pf0">
                                 <rect key="frame" x="331.66666666666669" y="93" width="58.333333333333314" height="25"/>
@@ -523,13 +650,61 @@
                     </view>
                     <navigationItem key="navigationItem" id="WXK-cs-4Q9"/>
                     <connections>
+                        <outlet property="harvestablesValueLabel" destination="nTi-h3-ioJ" id="3Yo-a5-WH8"/>
                         <outlet property="moneyLabel" destination="7nh-u7-Q6B" id="2tA-V4-dTx"/>
-                        <outlet property="sellHarvestButton" destination="rwC-8K-cFy" id="p4M-e6-4TO"/>
-                        <outlet property="strawberryButton" destination="2hH-Ps-V92" id="KOc-di-skc"/>
-                        <outlet property="windowButton" destination="4nO-vy-X6f" id="fT6-Kb-B0U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cR-c2-WNI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="e84-ZQ-pPQ">
+                    <connections>
+                        <action selector="blueberryDidTapWithRecognizer:" destination="h79-Rw-Et7" id="box-tT-zWm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Guf-qK-ffy">
+                    <connections>
+                        <action selector="pepperDidTapWithRecognizer:" destination="h79-Rw-Et7" id="8NZ-9x-yoF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="GrM-0O-i75">
+                    <connections>
+                        <action selector="beanDidTapWithRecognizer:" destination="h79-Rw-Et7" id="9U4-zV-F7c"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Bn3-Kz-TkF">
+                    <connections>
+                        <action selector="tomatoDidTapWithRecognizer:" destination="h79-Rw-Et7" id="Ccb-qY-8tm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="04A-MH-sva">
+                    <connections>
+                        <action selector="strawberryDidTapWithRecognizer:" destination="h79-Rw-Et7" id="NGw-sp-OEf"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Xch-lL-qfQ">
+                    <connections>
+                        <action selector="fertilzerDidTapWithRecognizer:" destination="h79-Rw-Et7" id="YvA-Yl-w8K"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="tgx-Ks-qUx">
+                    <connections>
+                        <action selector="gardenDidTapWithRecognizer:" destination="h79-Rw-Et7" id="iUt-Is-L7J"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="XD3-KJ-ofd">
+                    <connections>
+                        <action selector="windowsillDidTapWithRecognizer:" destination="h79-Rw-Et7" id="kvP-JP-X6i"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="72v-Tb-IuX">
+                    <connections>
+                        <action selector="meadowDidTapWithRecognizer:" destination="h79-Rw-Et7" id="mIz-Wb-Y4b"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AA5-kw-Ge5">
+                    <connections>
+                        <action selector="sellHarvestablesDidTapWithRecognizer:" destination="h79-Rw-Et7" id="hcK-lE-qmE"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1695.6521739130435" y="815.625"/>
         </scene>
