@@ -11,12 +11,21 @@ class PlantViewController: UIViewController {
     
     var totalFert:Float = 0.1
     var fertProg:Float = 1.0
+    var totalWater: Float = 0.1
+    var waterProg: Float = 1.0
+    var totalHarvest: Float = 0.1
+    var harvestProg: Float = 0.0
+    var plantLife: Float = 0.1
+    var harvested: Int = 0
+    
     
     @IBOutlet var mainPlant: UIImageView!
+    @IBOutlet var basket: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         mainPlant.image = UIImage(named: "modelPlantSmall")
+        basket.image = UIImage(named:"basket")
 
         // Do any additional setup after loading the view.
     }
@@ -33,17 +42,43 @@ class PlantViewController: UIViewController {
     */
     
     @IBOutlet var fertProgress: UIProgressView!
+    @IBOutlet var waterProgress: UIProgressView!
+    @IBOutlet var harvestProgress:UIProgressView
+    @IBOutlet var harvestCount: UILabel!
     
     @IBAction func fertelize(){
         fertProg = fertProg - 0.3
-        totalFert += 0.3
+        plantLife += 0.3
+        fertProgress.setProgress(fertProg, animated: true)
+        evaulatePlant()
+        
+    }
+    @IBAction func water(){
+        waterProg = waterProg - 0.3
+        plantLife += 0.2
+        waterProgress.setProgress(waterProg, animated: true)
+        evaulatePlant()
+    }
+    @IBAction func harvest(){
+        harvestProg = harvestProg + 0.1
+        if harvestProg % 0.2 == 0{
+            harvested += 1
+        }
+        plantLife -= 0.1
+        harvestProgress.setProgress(harvestProg, animated: true)
+        evaulatePlant()
+        
+    }
+    func evaulatePlant(){
         if totalFert >= 0.9{
             mainPlant.image = UIImage(named: "modelPlantLarge")
         }
         else if totalFert >= 0.45{
             mainPlant.image = UIImage(named: "modelPlantMedium")
         }
-        fertProgress.setProgress(fertProg, animated: true)
+        harvestCount.text = String(harvested)
         super.viewDidLoad()
+        
     }
+    
 }
