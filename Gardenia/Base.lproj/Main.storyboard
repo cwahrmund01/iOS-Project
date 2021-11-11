@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oF2-sh-zgB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -8,157 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gardenia" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbW-Zu-gwS">
-                                <rect key="frame" x="103" y="362" width="208" height="173"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="ljF-CX-0NN" kind="show" id="7q7-qT-j5S"/>
-                                </connections>
-                            </button>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bp-rX-Fhn">
-                                <rect key="frame" x="0.0" y="779" width="414" height="83"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" id="7Ju-R2-ckG"/>
-                                    <tabBarItem title="Shop" id="2Td-dh-cbo"/>
-                                    <tabBarItem title="Garden" id="1zJ-8f-FEg"/>
-                                    <tabBarItem title="Settings" id="NUG-rV-IM7"/>
-                                </items>
-                            </tabBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbs-Zs-WwX">
-                                <rect key="frame" x="170" y="648" width="76" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="To shop"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeL-E5-bwn">
-                                <rect key="frame" x="156" y="132" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="OUm-Dm-LwT" kind="show" id="V3w-SC-T4Q"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="3bp-rX-Fhn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="D6M-yL-754"/>
-                            <constraint firstItem="3bp-rX-Fhn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HKT-5O-8LT"/>
-                            <constraint firstItem="3bp-rX-Fhn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ixe-Bh-YLp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3bp-rX-Fhn" secondAttribute="bottom" id="zBn-Cl-sml"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="RYK-Q3-5Ah"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="939.13043478260875" y="83.705357142857139"/>
-        </scene>
-        <!--Plant View Controller-->
-        <scene sceneID="xZu-Av-vff">
-            <objects>
-                <viewController id="ljF-CX-0NN" customClass="PlantViewController" customModule="Gardenia" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RxI-Te-oTC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TfA-J3-yC2">
-                                <rect key="frame" x="20" y="503" width="374" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.3672328889" green="0.28653621670000001" blue="0.2080650926" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="modelPlantSmall" translatesAutoresizingMaskIntoConstraints="NO" id="n5t-RT-NQs">
-                                <rect key="frame" x="44" y="168" width="327" height="457"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DDj-QA-tk2">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" id="3q3-Pr-MyJ"/>
-                                    <tabBarItem title="Shop" id="D0b-Cz-Ht1"/>
-                                    <tabBarItem title="Garden" id="yX8-Hb-oXM"/>
-                                    <tabBarItem title="Settings" id="AmM-X0-niJ"/>
-                                </items>
-                            </tabBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="wmH-ek-1mM">
-                                <rect key="frame" x="151" y="645" width="113" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tool" translatesAutoresizingMaskIntoConstraints="NO" id="p8t-g1-GkC">
-                                <rect key="frame" x="281" y="645" width="113" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="9t5-hF-z2e">
-                                <rect key="frame" x="20" y="760" width="113" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="pg7-at-KIf">
-                                <rect key="frame" x="151" y="760" width="113" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="7fI-hK-Fzx">
-                                <rect key="frame" x="281" y="764" width="113" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdQ-JB-qI2">
-                                <rect key="frame" x="20" y="772" width="113" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Fertilize"/>
-                                <connections>
-                                    <action selector="fertelize" destination="ljF-CX-0NN" eventType="touchUpInside" id="L7K-ha-tzR"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fertilizer" translatesAutoresizingMaskIntoConstraints="NO" id="da2-I4-GBz">
-                                <rect key="frame" x="20" y="641" width="113" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="K8A-2O-c6H"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="kRX-rZ-NOZ"/>
-                    <connections>
-                        <outlet property="fertProgress" destination="9t5-hF-z2e" id="VaI-xi-rce"/>
-                        <outlet property="mainPlant" destination="n5t-RT-NQs" id="PLh-r0-Zrf"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U8i-zZ-lO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1697.1014492753625" y="83.705357142857139"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="4iq-So-jji">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oF2-sh-zgB" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mu8-DZ-EnC">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KFT-l4-OGi"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M2N-Xm-DJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
-        </scene>
         <!--Login View Controller-->
         <scene sceneID="B8x-ql-3l0">
             <objects>
@@ -218,9 +67,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Register">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="uy2-Cp-Ku9" kind="show" id="1B4-aO-8LZ"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CST-wy-jdj">
                                 <rect key="frame" x="112" y="497" width="60" height="31"/>
@@ -229,9 +75,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Login">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="ngL-aP-cmY" kind="show" id="cra-Bj-58k"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bs0-Ya-iaV"/>
@@ -240,7 +83,7 @@
                     <navigationItem key="navigationItem" id="UFl-HK-ccv"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-12" y="-760"/>
+            <point key="canvasLocation" x="807" y="84"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="5Do-R6-Wh7">
@@ -314,29 +157,12 @@
                     <navigationItem key="navigationItem" id="oe9-k2-9lO"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="939" y="-694"/>
-        </scene>
-        <!--Luisa-->
-        <scene sceneID="q2B-D4-Wxp">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="CalendarVC" storyboardName="Luisa" id="ngL-aP-cmY" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="iDx-Ua-TRz"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vS3-eZ-hMa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1805" y="-583"/>
+            <point key="canvasLocation" x="1549" y="84"/>
         </scene>
     </scenes>
     <resources>
-        <image name="fertilizer" width="577.260009765625" height="760.70001220703125"/>
         <image name="leftside" width="2104" height="2476"/>
-        <image name="modelPlantSmall" width="108.66666412353516" height="121"/>
         <image name="rightside" width="2104" height="2476"/>
-        <image name="tool" width="217.64273071289062" height="532.92510986328125"/>
-        <image name="water" width="193.52299499511719" height="278.62100219726562"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
