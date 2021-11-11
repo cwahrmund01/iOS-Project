@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bp-rX-Fhn">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="779" width="414" height="83"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="Home" id="7Ju-R2-ckG"/>
@@ -230,7 +230,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ngL-aP-cmY" kind="presentation" id="cra-Bj-58k"/>
+                                    <segue destination="ngL-aP-cmY" kind="show" id="cra-Bj-58k"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -319,7 +319,9 @@
         <!--Luisa-->
         <scene sceneID="q2B-D4-Wxp">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="CalendarVC" storyboardName="Luisa" id="ngL-aP-cmY" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="CalendarVC" storyboardName="Luisa" id="ngL-aP-cmY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iDx-Ua-TRz"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vS3-eZ-hMa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1805" y="-583"/>
