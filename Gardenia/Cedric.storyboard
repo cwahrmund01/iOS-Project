@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shop View Controller-->
+        <scene sceneID="xto-Qf-j6e">
+            <objects>
+                <viewController storyboardIdentifier="ShopVC" id="VIH-zf-hL6" customClass="ShopViewController" customModule="Gardenia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c3K-sv-vPA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzr-5W-zeu">
+                                <rect key="frame" x="179" y="62.5" width="56" height="30"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Shop">
+                                        <attributes>
+                                            <font key="NSFont" size="27" name="Times-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyr-Ga-7vC">
+                                <rect key="frame" x="0.0" y="92.5" width="414" height="803.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6is-a2-u7F">
+                                        <rect key="frame" x="20" y="390" width="106" height="21.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Backgrounds:">
+                                                <attributes>
+                                                    <font key="NSFont" size="19" name="Times-Roman"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="YqA-dj-EeA">
+                                        <rect key="frame" x="32" y="56.5" width="350" height="300"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="DJX-OG-hCa">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="137.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="48l-2f-yrh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueberry" translatesAutoresizingMaskIntoConstraints="NO" id="fVG-ai-yYz">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="100" id="f9u-kW-hjN"/>
+                                                                    <constraint firstAttribute="height" constant="100" id="vEs-Rw-F9p"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blueberry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcM-FG-f2y">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H5-Xa-6R2">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="X1u-3L-XRd" appends="YES" id="poQ-IQ-xgh"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-Ol-VLJ">
+                                                        <rect key="frame" x="125" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepper" translatesAutoresizingMaskIntoConstraints="NO" id="cb9-Te-AQU">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="Kz6-sx-cHq"/>
+                                                                    <constraint firstAttribute="width" constant="100" id="a2g-pC-cys"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pepper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uv-nf-oLE">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gp-3w-wnn">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="ayp-6F-mNs" appends="YES" id="UgY-PE-IDx"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4W4-Fl-ozp">
+                                                        <rect key="frame" x="250" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beans" translatesAutoresizingMaskIntoConstraints="NO" id="ePl-aT-IWv">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="Krr-0W-AqF"/>
+                                                                    <constraint firstAttribute="width" constant="100" id="QNV-oB-RAi"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bean" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XE6-q1-NaI">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geq-Ds-B3e">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="pf7-lj-vob" appends="YES" id="viG-Xv-ZfL"/>
+                                                        </connections>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="6Qz-e3-DHc">
+                                                <rect key="frame" x="0.0" y="162.5" width="350" height="137.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nwJ-f7-zUY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomato" translatesAutoresizingMaskIntoConstraints="NO" id="g1f-uQ-Vf6">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="Qrl-06-nLb"/>
+                                                                    <constraint firstAttribute="width" constant="100" id="fV1-6g-axW"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomato" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrM-bX-SaT">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEN-8p-SVc">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="kRV-9G-OK7" appends="YES" id="yru-yF-QbL"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v3T-hr-dcR">
+                                                        <rect key="frame" x="125" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="strawberry" translatesAutoresizingMaskIntoConstraints="NO" id="PS2-4W-cnu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="100" id="RzY-nO-cM9"/>
+                                                                    <constraint firstAttribute="height" constant="100" id="r3d-C2-aD5"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strawberry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77g-dN-Bvb">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5f-mu-XuJ">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="Xr5-KC-qcF" appends="YES" id="ZUt-Ja-zGN"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GTh-Ru-C5L">
+                                                        <rect key="frame" x="250" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fertilizer" translatesAutoresizingMaskIntoConstraints="NO" id="jTx-uG-P4I">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="100" id="YLY-Cw-QcK"/>
+                                                                    <constraint firstAttribute="height" constant="100" id="ffy-tP-IBQ"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fertilizer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYN-ke-b5j">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKD-Js-EaA">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="IV4-bV-QTo" appends="YES" id="mW0-PA-hdx"/>
+                                                        </connections>
+                                                    </stackView>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="rhB-YF-vuF">
+                                        <rect key="frame" x="32" y="426.5" width="350" height="137.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="7QC-Y0-CVV">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="137.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DJ9-1l-bEy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gardening" translatesAutoresizingMaskIntoConstraints="NO" id="pEh-HS-iPl">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="100" id="PUg-bE-EXb"/>
+                                                                    <constraint firstAttribute="height" constant="100" id="USL-2l-bUd"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garden" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mc-vx-tpz">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEs-xq-7uy">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="faN-GK-q0n" appends="YES" id="HvC-aI-779"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eth-y1-8uR">
+                                                        <rect key="frame" x="125" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="window" translatesAutoresizingMaskIntoConstraints="NO" id="Awh-Yp-0Ma">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="100" id="bbV-dy-nap"/>
+                                                                    <constraint firstAttribute="height" constant="100" id="lqC-IY-FRM"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Windowsill" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRU-W3-AKW">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$75" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3P-LZ-XHa">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="dHj-lc-EmH" appends="YES" id="HGr-YW-rgS"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qc1-mq-XJ2">
+                                                        <rect key="frame" x="250" y="0.0" width="100" height="137.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meadow" translatesAutoresizingMaskIntoConstraints="NO" id="KfR-pg-a0d">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="HbZ-9j-Kc4"/>
+                                                                    <constraint firstAttribute="width" constant="100" id="rPQ-ze-Ic1"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meadow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xge-Me-0D2">
+                                                                <rect key="frame" x="0.0" y="100" width="100" height="20.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFH-cP-lo0">
+                                                                <rect key="frame" x="0.0" y="120.5" width="100" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="QeL-0z-Gt2" appends="YES" id="XWb-ex-JoQ"/>
+                                                        </connections>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSu-QW-2ne">
+                                        <rect key="frame" x="20" y="20" width="113.5" height="21.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Garden Needs:">
+                                                <attributes>
+                                                    <font key="NSFont" size="19" name="Times-Roman"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PZv-fV-IA2">
+                                        <rect key="frame" x="132" y="600" width="150" height="137.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harvest" translatesAutoresizingMaskIntoConstraints="NO" id="npI-co-T0W">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Mqd-MJ-pU7"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sell Harvestables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzF-3r-1Vs">
+                                                <rect key="frame" x="0.0" y="100" width="150" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$not fixed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1h-OD-Bgd">
+                                                <rect key="frame" x="0.0" y="120.5" width="150" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="8n7-PU-NTd"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="nu6-ZM-Jtr" appends="YES" id="aXo-m2-L8a"/>
+                                        </connections>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstItem="YqA-dj-EeA" firstAttribute="centerX" secondItem="cyr-Ga-7vC" secondAttribute="centerX" id="Ej1-gR-RtQ"/>
+                                    <constraint firstItem="rhB-YF-vuF" firstAttribute="centerX" secondItem="cyr-Ga-7vC" secondAttribute="centerX" id="I6B-Ex-fW6"/>
+                                    <constraint firstItem="PZv-fV-IA2" firstAttribute="centerX" secondItem="cyr-Ga-7vC" secondAttribute="centerX" id="Jbv-mM-Yx7"/>
+                                    <constraint firstItem="PZv-fV-IA2" firstAttribute="top" secondItem="cyr-Ga-7vC" secondAttribute="top" constant="600" id="V4g-Hr-QiL"/>
+                                    <constraint firstItem="fSu-QW-2ne" firstAttribute="top" secondItem="cyr-Ga-7vC" secondAttribute="top" constant="20" symbolic="YES" id="YTB-UE-gTH"/>
+                                    <constraint firstItem="6is-a2-u7F" firstAttribute="top" secondItem="cyr-Ga-7vC" secondAttribute="top" constant="390" id="btE-C2-FoY"/>
+                                    <constraint firstItem="fSu-QW-2ne" firstAttribute="leading" secondItem="cyr-Ga-7vC" secondAttribute="leading" constant="20" symbolic="YES" id="jir-so-S6X"/>
+                                    <constraint firstItem="6is-a2-u7F" firstAttribute="leading" secondItem="cyr-Ga-7vC" secondAttribute="leading" constant="20" symbolic="YES" id="me1-yl-vtp"/>
+                                    <constraint firstItem="rhB-YF-vuF" firstAttribute="top" secondItem="cyr-Ga-7vC" secondAttribute="top" constant="426.5" id="uxd-rF-8My"/>
+                                    <constraint firstItem="YqA-dj-EeA" firstAttribute="top" secondItem="cyr-Ga-7vC" secondAttribute="top" constant="56.5" id="xRj-cY-ivN"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Prf-Fw-UIV">
+                                <rect key="frame" x="345.5" y="49" width="58.5" height="25"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="vVu-Ks-dBm">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="AQs-Kf-yYD"/>
+                                            <constraint firstAttribute="width" constant="25" id="v9a-hZ-q3u"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="001" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxN-f4-LvT">
+                                        <rect key="frame" x="30" y="0.0" width="28.5" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ony-aw-dbg"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="zzr-5W-zeu" firstAttribute="top" secondItem="Ony-aw-dbg" secondAttribute="top" constant="18.5" id="77Q-Xd-NLK"/>
+                            <constraint firstItem="Prf-Fw-UIV" firstAttribute="top" secondItem="Ony-aw-dbg" secondAttribute="top" constant="5" id="BSU-eG-dJy"/>
+                            <constraint firstItem="Ony-aw-dbg" firstAttribute="trailing" secondItem="Prf-Fw-UIV" secondAttribute="trailing" constant="10" id="OCC-uG-lTQ"/>
+                            <constraint firstAttribute="bottom" secondItem="cyr-Ga-7vC" secondAttribute="bottom" id="QLC-2P-rjd"/>
+                            <constraint firstItem="cyr-Ga-7vC" firstAttribute="top" secondItem="zzr-5W-zeu" secondAttribute="bottom" id="UFC-Dw-VpE"/>
+                            <constraint firstItem="cyr-Ga-7vC" firstAttribute="top" secondItem="Ony-aw-dbg" secondAttribute="top" constant="48.5" id="bk7-Zo-GsW"/>
+                            <constraint firstItem="cyr-Ga-7vC" firstAttribute="leading" secondItem="Ony-aw-dbg" secondAttribute="leading" id="de7-GO-33z"/>
+                            <constraint firstItem="Ony-aw-dbg" firstAttribute="trailing" secondItem="cyr-Ga-7vC" secondAttribute="trailing" id="uHE-ex-8W4"/>
+                            <constraint firstItem="cyr-Ga-7vC" firstAttribute="centerX" secondItem="c3K-sv-vPA" secondAttribute="centerX" id="yIQ-Ec-OVm"/>
+                            <constraint firstItem="zzr-5W-zeu" firstAttribute="leading" secondItem="Ony-aw-dbg" secondAttribute="leading" constant="179" id="yYi-AC-266"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="g8M-OO-sRe"/>
+                    <connections>
+                        <outlet property="harvestablesValueLabel" destination="C1h-OD-Bgd" id="n6E-Di-yef"/>
+                        <outlet property="moneyLabel" destination="yxN-f4-LvT" id="GzM-go-sgq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyj-FJ-bMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="X1u-3L-XRd">
+                    <connections>
+                        <action selector="blueberryDidTapWithRecognizer:" destination="VIH-zf-hL6" id="yH3-ea-qCD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ayp-6F-mNs">
+                    <connections>
+                        <action selector="pepperDidTapWithRecognizer:" destination="VIH-zf-hL6" id="d24-Wt-tlc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pf7-lj-vob">
+                    <connections>
+                        <action selector="beanDidTapWithRecognizer:" destination="VIH-zf-hL6" id="d94-A5-tEL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kRV-9G-OK7">
+                    <connections>
+                        <action selector="tomatoDidTapWithRecognizer:" destination="VIH-zf-hL6" id="ifV-t6-yBa"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Xr5-KC-qcF">
+                    <connections>
+                        <action selector="strawberryDidTapWithRecognizer:" destination="VIH-zf-hL6" id="2vC-Dz-mx1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="IV4-bV-QTo">
+                    <connections>
+                        <action selector="fertilzerDidTapWithRecognizer:" destination="VIH-zf-hL6" id="Jwj-bT-3SY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="faN-GK-q0n">
+                    <connections>
+                        <action selector="gardenDidTapWithRecognizer:" destination="VIH-zf-hL6" id="iXl-4V-Itv"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="dHj-lc-EmH">
+                    <connections>
+                        <action selector="windowsillDidTapWithRecognizer:" destination="VIH-zf-hL6" id="Dns-eT-JSJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="QeL-0z-Gt2">
+                    <connections>
+                        <action selector="meadowDidTapWithRecognizer:" destination="VIH-zf-hL6" id="L8K-um-uHa"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="nu6-ZM-Jtr">
+                    <connections>
+                        <action selector="sellHarvestablesDidTapWithRecognizer:" destination="VIH-zf-hL6" id="CYE-GL-TVc"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1695.6521739130435" y="815.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beans" width="512" height="512"/>
+        <image name="blueberry" width="512" height="512"/>
+        <image name="coin" width="512" height="512"/>
+        <image name="fertilizer" width="577.260009765625" height="760.70001220703125"/>
+        <image name="gardening" width="512" height="512"/>
+        <image name="harvest" width="512" height="512"/>
+        <image name="meadow" width="512" height="512"/>
+        <image name="pepper" width="512" height="512"/>
+        <image name="strawberry" width="512" height="512"/>
+        <image name="tomato" width="512" height="512"/>
+        <image name="window" width="512" height="512"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

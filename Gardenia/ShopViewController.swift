@@ -12,6 +12,7 @@ class ShopViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet var harvestablesValueLabel: UILabel!
     @IBOutlet var moneyLabel: UILabel!
     
+    
     var costs: [String: Int] = ["blueberry" : 10,
                                 "pepper" : 7,
                                 "bean" : 5,
@@ -24,6 +25,7 @@ class ShopViewController: UIViewController, UIGestureRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         moneyLabel.text = "\(userInventory.money)"
         harvestablesValueLabel.text = "$\(userInventory.getValueOfHarvestables())"
     }

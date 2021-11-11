@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		822B1A012721125800DD7882 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822B1A002721125800DD7882 /* GoogleService-Info.plist */; };
 		8253048B2732ECAD0029D9FD /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8253048A2732ECAD0029D9FD /* Inventory.swift */; };
+		825FBB2A273C5D1000CB2904 /* Cedric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825FBB29273C5D1000CB2904 /* Cedric.storyboard */; };
 		82F012712729FC3D003BC06F /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F012702729FC3D003BC06F /* ShopViewController.swift */; };
 		902C4F8793A052958EA4226E /* Pods_Gardenia_GardeniaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8F53FFDFCF5C9C160A60BE /* Pods_Gardenia_GardeniaUITests.framework */; };
 		A01B772C271532C700042FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B772B271532C700042FC9 /* AppDelegate.swift */; };
@@ -17,9 +18,6 @@
 		A01B7733271532C700042FC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01B7731271532C700042FC9 /* Main.storyboard */; };
 		A01B7735271532C800042FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01B7734271532C800042FC9 /* Assets.xcassets */; };
 		A01B7738271532C800042FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01B7736271532C800042FC9 /* LaunchScreen.storyboard */; };
-		A01B7743271532C800042FC9 /* GardeniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B7742271532C800042FC9 /* GardeniaTests.swift */; };
-		A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774C271532C800042FC9 /* GardeniaUITests.swift */; };
-		A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */; };
 		A099B844272995C100BF6FA5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B843272995C100BF6FA5 /* LoginViewController.swift */; };
 		A099B846272995D700BF6FA5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B845272995D700BF6FA5 /* RegisterViewController.swift */; };
 		A099B848272995EC00BF6FA5 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A099B847272995EC00BF6FA5 /* CalendarViewController.swift */; };
@@ -53,6 +51,7 @@
 		7717A3C3E08939367A92039C /* Pods_GardeniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GardeniaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		822B1A002721125800DD7882 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8253048A2732ECAD0029D9FD /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		825FBB29273C5D1000CB2904 /* Cedric.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cedric.storyboard; sourceTree = "<group>"; };
 		82F012702729FC3D003BC06F /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		9F8E280203A866C62CA2C574 /* Pods-GardeniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardeniaTests.release.xcconfig"; path = "Target Support Files/Pods-GardeniaTests/Pods-GardeniaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A01B7728271532C700042FC9 /* Gardenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,10 +63,7 @@
 		A01B7737271532C800042FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01B7739271532C800042FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01B773E271532C800042FC9 /* GardeniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardeniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01B7742271532C800042FC9 /* GardeniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaTests.swift; sourceTree = "<group>"; };
 		A01B7748271532C800042FC9 /* GardeniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardeniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01B774C271532C800042FC9 /* GardeniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITests.swift; sourceTree = "<group>"; };
-		A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeniaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A099B843272995C100BF6FA5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A099B845272995D700BF6FA5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A099B847272995EC00BF6FA5 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -132,8 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				A01B772A271532C700042FC9 /* Gardenia */,
-				A01B7741271532C800042FC9 /* GardeniaTests */,
-				A01B774B271532C800042FC9 /* GardeniaUITests */,
 				A01B7729271532C700042FC9 /* Products */,
 				75D202514C44A4E4808188F2 /* Pods */,
 				2D968504EFAE72185AB73B56 /* Frameworks */,
@@ -153,7 +147,6 @@
 		A01B772A271532C700042FC9 /* Gardenia */ = {
 			isa = PBXGroup;
 			children = (
-				A0D85F702720C8E7000314B2 /* Images */,
 				A01B772B271532C700042FC9 /* AppDelegate.swift */,
 				A01B772D271532C700042FC9 /* SceneDelegate.swift */,
 				A01B772F271532C700042FC9 /* ViewController.swift */,
@@ -161,6 +154,7 @@
 				82F012702729FC3D003BC06F /* ShopViewController.swift */,
 				A01B7731271532C700042FC9 /* Main.storyboard */,
 				8253048A2732ECAD0029D9FD /* Inventory.swift */,
+				825FBB29273C5D1000CB2904 /* Cedric.storyboard */,
 				A099B843272995C100BF6FA5 /* LoginViewController.swift */,
 				A099B845272995D700BF6FA5 /* RegisterViewController.swift */,
 				A099B847272995EC00BF6FA5 /* CalendarViewController.swift */,
@@ -170,30 +164,6 @@
 				A01B7739271532C800042FC9 /* Info.plist */,
 			);
 			path = Gardenia;
-			sourceTree = "<group>";
-		};
-		A01B7741271532C800042FC9 /* GardeniaTests */ = {
-			isa = PBXGroup;
-			children = (
-				A01B7742271532C800042FC9 /* GardeniaTests.swift */,
-			);
-			path = GardeniaTests;
-			sourceTree = "<group>";
-		};
-		A01B774B271532C800042FC9 /* GardeniaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A01B774C271532C800042FC9 /* GardeniaUITests.swift */,
-				A01B774E271532C800042FC9 /* GardeniaUITestsLaunchTests.swift */,
-			);
-			path = GardeniaUITests;
-			sourceTree = "<group>";
-		};
-		A0D85F702720C8E7000314B2 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +279,7 @@
 				822B1A012721125800DD7882 /* GoogleService-Info.plist in Resources */,
 				A01B7735271532C800042FC9 /* Assets.xcassets in Resources */,
 				A01B7733271532C700042FC9 /* Main.storyboard in Resources */,
+				825FBB2A273C5D1000CB2904 /* Cedric.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +423,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01B7743271532C800042FC9 /* GardeniaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +430,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01B774F271532C800042FC9 /* GardeniaUITestsLaunchTests.swift in Sources */,
-				A01B774D271532C800042FC9 /* GardeniaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
