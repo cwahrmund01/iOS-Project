@@ -8,6 +8,7 @@ target 'Gardenia' do
   # Pods for Gardenia
   pod 'Firebase/Auth'
   pod 'FSCalendar'
+  pod 'FirebaseDatabase'
 
   target 'GardeniaTests' do
     inherit! :search_paths
