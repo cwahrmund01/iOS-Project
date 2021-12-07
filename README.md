@@ -18,6 +18,7 @@
 - Blueberry is the only plant that shows changes in the short term. The other plants have lifecycles/consumption duration in the scale of days. The fertilizer and harvest are both significantly accelerated for demonstration purposes for blueberry (while water consumption rate was left at default). The life cycle for plants are listed in an array at the top of collectionViewCell.swift, with blueberry being drastically shorter than other.
 - When you are on the Table View of Events, to delete the events you just created to the Apple Calendar, swipe and delete on the cell.
 - The animation after pressing the fertilize button is very slow. If there is no animation, please go to the shop and buy some fertilizer.
+- Registering resets the garden and inventory and profile picture.
 
 **Required feature checklist**  
 - [x] Login/register path with Firebase.  
