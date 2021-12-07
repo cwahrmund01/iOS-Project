@@ -68,5 +68,6 @@ Minor elements used:
 | Alerts, Haptics, User Defaults | In various VC's in the app | Aayam % <br/> Cedric % <br/> Luisa % <br/> Wynne %
 | Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
 | Calendar | Implemented so user can type in text field for title and note, select date from date picker, and add minutes to selected time. | Luisa 100%
+| Collection View | Plants in garden are added into a collection view. | Aayam 100%
 
  
