@@ -17,6 +17,7 @@
 - For the animation, create a blueberry plant, fertilize it (if you can't, go to the shop and buy some), and wait around 60 seconds. The collection view updates when it appears. So after 30 seconds, if you go to the shop and come back, some change should occour. After 60 seconds, go into the plant, once harvest is green, tapping it will change plant image.
 - Blueberry is the only plant that shows changes in the short term. The other plants have lifecycles/consumption duration in the scale of days. The fertilizer and harvest are both significantly accelerated for demonstration purposes for blueberry (while water consumption rate was left at default). The life cycle for plants are listed in an array at the top of collectionViewCell.swift, with blueberry being drastically shorter than other.
 - When you are on the Table View of Events, to delete the events you just created to the Apple Calendar, swipe and delete on the cell.
+- The animation after pressing the fertilize button is very slow. If there is no animation, please go to the shop and buy some fertilizer.
 
 **Required feature checklist**  
 - [x] Login/register path with Firebase.  
