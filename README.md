@@ -2,7 +2,7 @@
 ---
 **Name of Project:** Gardenia  
 **Team members:** Aayam Sharma, Cedric Wahrmund, Luisa Espinoza, Wynne Yang  
-**Dependencies:** Xcode 13.1
+**Dependencies:** Xcode 13.1, Swift 5
 
 **Special Instructions:**  
 - Use an iPhone 12 Pro Max simulator  
