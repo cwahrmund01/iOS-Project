@@ -14,6 +14,8 @@
   - email: bulko@email.com
   - email: math@gmail.com
   - email: utaustin@yahoo.com  
+- For the animation, create a blueberry plant, fertilize it (if you can't, go to the shop and buy some), and wait around 60 seconds. The collection view updates when it appears. So after 30 seconds, if you go to the shop and come back, some change should occour. After 60 seconds, go into the plant, once harvest is green, tapping it will change plant image.
+- Blueberry is the only plant that shows changes in the short term. The fertilizer and harvest are both significantly accelerated for demonstration purposes(while water consumption rate was left for default). The life cycle for plants are listed in an array at the top of collectionViewCell.swift
 
 **Required feature checklist**  
 - [x] Login/register path with Firebase.  
@@ -67,6 +69,7 @@ Minor elements used:
 | Table View | Inside the calendar implementation. Updated with every event created in Apple Calendar. | Luisa 100%
 | Alerts, Haptics, User Defaults | In various VC's in the app | Aayam % <br/> Cedric % <br/> Luisa % <br/> Wynne %
 | Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
+| Calendar | Implemented so user can type in text field for title and note, select date from date picker, and add minutes to selected time. | Luisa 100%
 | Collection View | Plants in garden are added into a collection view. | Aayam 100%
 
  
