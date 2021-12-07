@@ -56,16 +56,16 @@ Minor elements used:
   - [x] Core Audio
   
 **Work Distribution Table:**
-| Required Features           | Description | Who/% Worked On  |  
+| Required Features | Description | Who/% Worked On |  
 |----------------|---------------|---------------|
-| Login/Register | > 5 hours  |  | in progress 
-| Settings  | > 5 hours  |  | in progress 
-| Non-default colors and fonts  | > 5 hours  |  | in progress |
-| Core Data  | > 5 hours  |  | in progress  
-| User Profile | some description here test | | in progress 
-| Additional Views | Switches, segmented controllers, etc. | | test 
-| Table View | Inside the calendar implementation. Updated with every event created. | | Luisa 100% 
-| Alerts, Haptics, User Defaults | In various VC's in the app | | that's why you wont work
-| Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | | Wynne 25%, Luisa 25%, Cedric 25%, Aayam 25%
+| Login/Register | > 5 hours | in progress 
+| Settings  | > 5 hours | in progress 
+| Non-default colors and fonts  | > 5 hours | in progress |
+| Core Data  | > 5 hours  | in progress  
+| User Profile | some description here test  | in progress 
+| Additional Views | Switches, segmented controllers, etc. | test 
+| Table View | Inside the calendar implementation. Updated with every event created. | Luisa 100% 
+| Alerts, Haptics, User Defaults | In various VC's in the app | that's why you wont work
+| Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Wynne 25%, Luisa 25%, Cedric 25%, Aayam 25%
 
  
