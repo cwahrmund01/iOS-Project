@@ -64,8 +64,9 @@ Minor elements used:
 | Core Data  | Storing user data preferences for shop, garden, settings, and events created | Aayam 25% <br/> Cedric 25% <br/> Luisa 25% <br/> Wynne 25%
 | User Profile | Camera and photo library and editing and creating profile | Wynne 100%
 | Additional Views | Switches, segmented controllers, etc. | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
-| Table View | Inside the calendar implementation. Updated with every event created in Apple Calendar. | Luisa 100% 
+| Table View | Inside the calendar implementation. Updated with every event created in Apple Calendar. | Luisa 100%
 | Alerts, Haptics, User Defaults | In various VC's in the app | Aayam % <br/> Cedric % <br/> Luisa % <br/> Wynne %
 | Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
+| Calendar | Implemented so user can type in text field for title and note, select date from date picker, and add minutes to selected time. | Luisa 100%
 
  
