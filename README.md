@@ -14,7 +14,7 @@
   - email: bulko@email.com
   - email: math@gmail.com
   - email: utaustin@yahoo.com  
-- For the animation, create a blueberry plant, fertilize it (if you can't, go to the shop and buy some), and go back go garden and wait around 60 seconds. The collection view updates when it appears, so after 30 seconds, if you go to the shop and come back, some change on the progress bar should occour. After 60 seconds, go into the plant, once harvest is green, tapping it will change plant image and make harvest available to be sold in the shop(if not green, go back out to garden and wait a little).
+- For the animation, create a blueberry plant, fertilize it (if you can't, go to the shop and buy some), and wait around 60 seconds. The collection view updates when it appears. So after 30 seconds, if you go to the shop and come back, some change should occour. After 60 seconds, go into the plant, once harvest is green, tapping it will change plant image.
 - Blueberry is the only plant that shows changes in the short term. The other plants have lifecycles/consumption duration in the scale of days. The fertilizer and harvest are both significantly accelerated for demonstration purposes for blueberry (while water consumption rate was left at default). The life cycle for plants are listed in an array at the top of collectionViewCell.swift, with blueberry being drastically shorter than other.
 
 **Required feature checklist**  
@@ -68,8 +68,7 @@ Minor elements used:
 | Additional Views | Switches, segmented controllers, etc. | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
 | Table View | Inside the calendar implementation. Updated with every event created in Apple Calendar. | Luisa 100%
 | Alerts, Haptics, User Defaults | In various VC's in the app | Aayam % <br/> Cedric % <br/> Luisa % <br/> Wynne %
-| Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
-| Calendar | Implemented so user can type in text field for title and note, select date from date picker, and add minutes to selected time. | Luisa 100%
+| Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Aayam 25% <br/> Cedric 25% <br/> Luisa 25% <br/> Wynne 25%
 | Collection View | Plants in garden are added into a collection view. | Aayam 100%
 
  
