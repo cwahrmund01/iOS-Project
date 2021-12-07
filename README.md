@@ -58,14 +58,14 @@ Minor elements used:
 **Work Distribution Table:**
 | Required Features | Description | Who/% Worked On |  
 |----------------|---------------|---------------|
-| Login/Register | > 5 hours | in progress 
-| Settings  | > 5 hours | in progress 
-| Non-default colors and fonts  | > 5 hours | in progress |
-| Core Data  | > 5 hours  | in progress  
-| User Profile | some description here test  | in progress 
-| Additional Views | Switches, segmented controllers, etc. | test 
-| Table View | Inside the calendar implementation. Updated with every event created. | Luisa 100% 
-| Alerts, Haptics, User Defaults | In various VC's in the app | that's why you wont work
-| Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Wynne 25%, Luisa 25%, Cedric 25%, Aayam 25%
+| Login/Register | Allow user to create new account and access to previous account. | Wynne 100%
+| Settings  | Light/dark mode, sound on/off, notification on/off. Allows for user pfp to be edited, logout and password changing. | Wynne 100%
+| Non-default colors and fonts | Throughout the entire app | Aayam 40% <br/> Cedric 40% <br/> Luisa 10% <br/> Wynne 10% |
+| Core Data  | Storing user data preferences for shop, garden, settings, and events created | Aayam 25% <br/> Cedric 25% <br/> Luisa 25% <br/> Wynne 25%
+| User Profile | Camera and photo library and editing and creating profile | Wynne 100%
+| Additional Views | Switches, segmented controllers, etc. | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
+| Table View | Inside the calendar implementation. Updated with every event created in Apple Calendar. | Luisa 100% 
+| Alerts, Haptics, User Defaults | In various VC's in the app | Aayam % <br/> Cedric % <br/> Luisa % <br/> Wynne %
+| Gesture Recognition, Animation, Calendar, Core Audio | In various VC's in the app | Aayam 20% <br/> Cedric 20% <br/> Luisa 30% <br/> Wynne 30%
 
  
