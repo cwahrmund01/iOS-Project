@@ -21,44 +21,44 @@
 - Registering resets the garden and inventory and profile picture.
 
 **Required feature checklist**  
-- [x] Login/register path with Firebase.  
+- [x] Login/register path with Firebase: When launched, it's immediately there (initial VC).
 - [x] "Settings" screen. The three behaviors we implemented are: light/dark mode, sound on/off, notification, on/off.
-- [x] Non-default fonts and colors used
+- [x] Non-default fonts and colors used: Throughout the app.
 
 Two major elements used:  
-- [x] Core Data  
-- [x] User Profile path using camera and photo library
+- [x] Core Data: To save/store garden, inventory, events, and sound.  
+- [x] User Profile path using camera and photo library: In the settings page.
 - [ ] Multithreading
 - [ ] SwiftUI
 
 Minor elements used:
-- [x] Two additional view types such as sliders, segmented controllers, etc. The two we implemented are: switches and segmented controllers.  
+- [x] Two additional view types such as sliders, segmented controllers, etc. The two we implemented are: switches and segmented controllers: segmented controllers in CalendarVC. Switches are in the Settings vc. 
 
   One of the following: 
-  - [x] Table View
-  - [x] Collection View
+  - [x] Table View: In the Calendar VC, when you click on ViewEvents... button.
+  - [x] Collection View: In the Garden VC.
   - [ ] Tab VC
   - [ ] Page VC  
   
   Two of the following:  
   
-  - [x] Alerts
+  - [x] Alerts: When deleting plants, insufficient amount of seeds during plant creation. Insufficient funds in the Shop VC. Alerting when settings are changed. When creating an event.
   - [ ] Popovers
-  - [x] Stack Views
+  - [x] Stack Views: How the Shop VC was organized.
   - [ ] Scroll Views
   - [ ] Haptics
-  - [x] User Defaults   
+  - [x] User Defaults: Storing the state of the sound and notification switches.  
   
   At least one of the following per team member:    
   
   - [ ] Local notifications
   - [ ] Core Graphics
-  - [x] Gesture Recognition
-  - [x] Animation
-  - [x] Calendar
+  - [x] Gesture Recognition: Tap gestures when buying things in shop.
+  - [x] Animation: Plant shrinking after harvest button.
+  - [x] Calendar: Create events through Calendar VC, through text fields, date pickers, segmented controls. Can delete events when swiping and deleting on Table View.
   - [ ] Core Motion
   - [ ] Core Location / MapLit
-  - [x] Core Audio
+  - [x] Core Audio: Throughout the app, shuffling noises when different VC show up.
   
 **Work Distribution Table:**
 | Required Features | Description | Who/% Worked On |  
